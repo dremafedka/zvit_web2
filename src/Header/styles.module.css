@@ -1,0 +1,10 @@
+.header_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center
+}
+
+.header_main h1 {
+    font-size: 18px;
+}

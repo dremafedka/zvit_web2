@@ -1,0 +1,35 @@
+.content_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    width: 1200px;
+}
+
+.nav_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+}
+
+.menu_item {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.menu_subitem {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.lab_content {
+    width: 75%;
+    border: 1px solid black;
+    padding: 15px;
+}
