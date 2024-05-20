@@ -30,13 +30,19 @@ function App() {
             </NavLink>
           </div>
           <div>
-            Лабораторна робота №5
+            <NavLink to={'/5'} style={{ textDecoration: 'none' }}>
+              Лабораторна робота №5
+            </NavLink>
           </div>
           <div>
-            Лабораторна робота №6
+            <NavLink to={'/6'} style={{ textDecoration: 'none' }}>
+              Лабораторна робота №6
+            </NavLink>
           </div>
           <div>
-            Лабораторна робота №7
+            <NavLink to={'/7'} style={{ textDecoration: 'none' }}>
+              Лабораторна робота №7
+            </NavLink>
           </div>
           <div>
             Лабораторна робота №8

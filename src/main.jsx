@@ -7,6 +7,9 @@ import {Lab1} from "./Lab1.jsx";
 import {Lab2} from "./Lab2.jsx";
 import {Lab3} from "./Lab3.jsx";
 import {Lab4} from "./Lab4.jsx";
+import {Lab5} from "./Lab5.jsx";
+import {Lab6} from "./Lab6.jsx";
+import {Lab7} from "./Lab7.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -17,6 +20,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                   <Route path={'/2'} element={<Lab2/>} />
                   <Route path={'/3'} element={<Lab3/>} />
                   <Route path={'/4'} element={<Lab4/>} />
+                  <Route path={'/5'} element={<Lab5/>} />
+                  <Route path={'/6'} element={<Lab6/>} />
+                  <Route path={'/7'} element={<Lab7/>} />
               </Route>
           </Routes>
       </BrowserRouter>
