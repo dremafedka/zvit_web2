@@ -45,10 +45,14 @@ function App() {
             </NavLink>
           </div>
           <div>
-            Лабораторна робота №8
+            <NavLink to={'/8'} style={{ textDecoration: 'none' }}>
+              Лабораторна робота №8
+            </NavLink>
           </div>
           <div>
-            Лабораторна робота №9
+            <NavLink to={'/9'} style={{ textDecoration: 'none' }}>
+              Лабораторна робота №9
+            </NavLink>
           </div>
 
         </div>
