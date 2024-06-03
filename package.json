@@ -2,7 +2,7 @@
   "name": "untitled18",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dremafedka.github.io/zvit_web2",
+  "homepage": "https://dremafedka.github.io/zvit_web2/",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
